@@ -1,0 +1,260 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: sans-serif;
+}
+html, body {
+   height: 100%;
+   width: 100%;
+   overflow: hidden;
+}
+#main1 {
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+#main2 {
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+#main3 {
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+#main4 {
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+#main5 {
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+#page {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: rgba(255, 255, 255, 0.747);
+    position: relative;
+}
+ul {
+    display: flex;
+    margin-left: 450px;
+    margin-right: 100px;
+    justify-content: space-around;
+    list-style: none;
+}
+.home {
+    font-size: 13px;
+    padding: 4px 13px 4px 13px;
+    border-radius: 20px;
+    color: black;
+    text-decoration: none;  
+
+}
+#page1 {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+#page2 {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+#page3 {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+#page4 {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+#page5 {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+#image {
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+}
+.content {
+    position: relative;
+    color: black;
+    font-size: 1rem;
+    width: 40%;
+    margin-top: 90px;
+    margin-left: 130px;
+}
+.objectimg {
+    position: relative;
+    margin-top: 50px;
+    margin-left: 90px;
+}
+.heading {
+    font-family: sans-serif;
+    font-size: 4.5rem;
+    font-weight: 900;
+}
+.btn {
+    background-color: white;
+    color: black;
+    padding: 4px 13px 4px 13px; 
+    border-radius: 25px;
+    border: none;
+}
+.bananaphoto{
+    height: 70%;
+    filter: drop-shadow(10px 10px 20px rgba(255, 255, 255, 0.83));
+}
+.leftarrow{
+    background-color: white;
+    padding: 5px 5px;
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    position: absolute;
+    top: 49%;
+    left: 3%
+}
+
+.objectimg svg{
+    padding: 5px 5px;
+    background-color: white;
+    border-radius: 50%;
+    color: black;
+    justify-content: space-between;
+    height: 35px;
+    width: 35px;
+    position: absolute;
+    justify-content: center;
+    top: 30%;
+    right: -35%;
+}
+#page2 .leftarroww{
+    position: absolute;
+    background-color: white;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    padding: 5px 5px;  
+    left: 3%;
+    margin-top: 16%;
+}
+#page3 #pgleft3{
+    position: absolute;
+    background-color: white;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    padding: 5px 5px;  
+    left: 3%;
+    margin-top: 16%;
+}
+#page4 #pgleft4{
+    position: absolute;
+    background-color: white;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    padding: 5px 5px;  
+    left: 3%;
+    margin-top: 16%;
+}
+#page5 #pgleft5{
+    position: absolute;
+    background-color: white;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    padding: 5px 5px;  
+    left: 3%;
+    margin-top: 16%;
+}
+.ba{
+    padding: 3px;
+    border-radius: 20px;
+    background: linear-gradient(rgb(255, 227, 13),rgb(255, 205, 4),rgb(255, 228, 19),rgb(255, 247, 15));
+    object-fit: cover;
+}
+.co{
+    padding: 3px;
+    border-radius: 20px;
+    background: linear-gradient(brown,brown,brown,brown,brown);
+    object-fit: cover;
+}
+.st{
+    padding: 3px;
+    border-radius: 20px;
+    background: linear-gradient(pink,rgba(225, 124, 141, 0.921),pink,rgb(255, 167, 181),rgba(252, 148, 166, 0.921));
+    object-fit: cover;
+}
+.bl{
+    padding: 3px;
+    border-radius: 20px;
+    background: linear-gradient(rgb(191, 121, 191),purple,rgb(234, 170, 234),purple,rgb(230, 123, 230));
+    object-fit: cover;
+}
+.ki{
+    padding: 3px;
+    border-radius: 20px;
+    background: linear-gradient(rgb(113, 231, 113),rgb(133, 237, 133),green,rgb(59, 212, 59),rgb(8, 201, 8));
+    object-fit: cover;
+}
+#Banana{
+    background-color: white;
+}
+#Coconut{
+    background-color: white;
+}
+#Strawberry{
+    background-color: white;
+}
+#Blackberry{
+    background-color: white;
+}
+#kiwi{
+    background-color: white;
+}
+#TasteDrive1{
+    /* color: white; */
+    font-weight: bold;
+    background-color: 1px solid black;
+    background: linear-gradient(yellow,rgb(255, 244, 29),rgb(255, 185, 9));
+}
+#TasteDrive2{
+    color: white;
+    font-weight: bold;
+    background-color: 1px solid black;
+    background: linear-gradient(brown,brown,rgb(99, 43, 43),rgb(157, 60, 60),brown);
+}
+#TasteDrive3{
+    /* color: white; */
+    font-weight: bold;
+    background-color: 1px solid black;
+    background: linear-gradient(pink,rgba(225, 124, 141, 0.921),pink,rgb(255, 167, 181),rgba(252, 148, 166, 0.921));
+}
+#TasteDrive4{
+    color: white;
+    font-weight: bold;
+    background-color: 1px solid black;
+    background: linear-gradient(rgb(191, 121, 191),purple,rgb(234, 170, 234),purple,rgb(230, 123, 230));
+}
+#TasteDrive5{
+    color: white;
+    font-weight: bold;
+    background-color: 1px solid black;
+    background: linear-gradient(rgb(113, 231, 113),rgb(133, 237, 133),rgb(94, 132, 94),rgb(59, 212, 59),rgb(8, 201, 8));
+}
